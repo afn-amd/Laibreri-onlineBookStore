@@ -327,7 +327,7 @@ body {
 .calendar-day-today {
     background: #007bff;
     color: white;
-    border-radius: 50%;
+    border-radius: 12px;
 }
 
 .friends-section {
@@ -370,4 +370,27 @@ body {
     margin-left: auto;
     font-size: 11px;
     color: #6c757d;
+}
+
+@media (max-width: 1200px) {
+    .content-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .sidebar {
+        display: none;
+    }
+    .main-content {
+        padding: 20px;
+    }
+    .welcome-content {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+    .book-preview {
+        transform: none;
+    }
 }
