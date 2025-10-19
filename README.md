@@ -27,9 +27,12 @@ It features a sidebar navigation, search functionality, reading progress display
 ---
 
 ## 📂 Folder Structure
-
-<img width="354" height="188" alt="image" src="https://github.com/user-attachments/assets/0cbc7e40-29b8-4823-97f3-eaa8110d9c03" />
-
+**Laibreri/
+<br>│
+<br>├── index.html # Main HTML file
+<br>├── style.css # Styling file
+<br>├── script.js # JavaScript logic
+<br>└── README.md # Project documentation**
 
 ---
 
